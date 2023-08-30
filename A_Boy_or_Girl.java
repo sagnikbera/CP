@@ -8,19 +8,22 @@ public class A_Boy_or_Girl{
 
         int j,i;
         int count=0;
-        for(j=0;j<str.length();j++){
-            for(i=0;i<str.length();i++){
-                if(str.charAt(j)==str.charAt(i)){
-                    count++;
-                }
+        int len = str.length();
+        int[] arr = new int[123]; 
+
+        for (j = 0; j < str.length(); j++) {
+            arr[str.charAt(j)]++;
+        }
+        for(i=97;i<123;i++){
+            if(arr[i]!=0){
+                count++;
             }
         }
-
-        int distinct_Char = str.length() - count;
-        if(distinct_Char%2 == 0){
+        if(count%2 == 0){
             System.out.println("CHAT WITH HER!");
         }else{
             System.out.println("IGNORE HIM!");
         }
+        // System.out.println(count);
     }
 }

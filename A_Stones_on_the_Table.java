@@ -9,7 +9,9 @@ public static void main(String[] args) {
 
     int i , count = 0;
     for(i=1 ; i<n ; i++){
-        if(str.charAt(i)==str.charAt(i-1)){
+        if(str.charAt(i)==str.charAt(i-1))
+        //comp ASCII value withe privous elemnet
+        {
             count++;
         }
     }

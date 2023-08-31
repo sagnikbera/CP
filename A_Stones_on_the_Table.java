@@ -1,4 +1,8 @@
+//https://codeforces.com/problemset/problem/266/A
 import java.util.*;
+
+import java.util.Scanner;
+
 public class A_Stones_on_the_Table{
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);

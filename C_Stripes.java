@@ -1,4 +1,9 @@
+//https://codeforces.com/contest/1742/problem/C
+
 import java.util.*;
+
+import java.util.Scanner;
+
 public class C_Stripes{
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);

@@ -1,4 +1,8 @@
+//https://codeforces.com/contest/546/problem/A
 import java.util.*;
+
+import java.util.Scanner;
+
 public class A_Soldier_and_Bananas{
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);

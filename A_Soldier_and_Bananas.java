@@ -7,6 +7,11 @@ Scanner sc = new Scanner(System.in);
     int w = sc.nextInt();
 
     int x = k*w*(w+1)/2;
+
+    if(n>x){
+        System.out.println("0");
+    }else{
     System.out.println(x-n);
+    }
 }
 }

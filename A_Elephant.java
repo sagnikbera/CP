@@ -1,4 +1,8 @@
+//https://codeforces.com/problemset/problem/617/A
 import java.util.*;
+
+import java.util.Scanner;
+
 public class A_Elephant{
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);

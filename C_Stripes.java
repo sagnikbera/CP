@@ -13,18 +13,24 @@ while(t-->0){
         }
     }
 
-    int count=0;
-    for(int j=0;j<8;j++){
-       for(int i=0;i<8;i++){
+    
+    int f=0;
+    for(int i=0;i<8;i++){
+        int count=0;
+       for(int j=0;j<8;j++){
         if(c[i][j]=='R'){
             count++;
         }
        } 
+       if(count==8){
+        f=1;
+        break;
+       }
     }
 
     
 
-    if(count==8){
+    if(f==1){
         System.out.println("R");
     }else{
         System.out.println("B");

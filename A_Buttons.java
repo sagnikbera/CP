@@ -1,4 +1,9 @@
+//https://codeforces.com/contest/1858/problem/A
+
 import java.util.*;
+
+import java.util.Scanner;
+
 public class A_Buttons{
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);

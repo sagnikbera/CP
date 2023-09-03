@@ -1,4 +1,9 @@
+//https://codeforces.com/problemset/problem/59/A
+
 import java.util.*;
+
+import java.util.Scanner;
+
 public class A_Word{
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);

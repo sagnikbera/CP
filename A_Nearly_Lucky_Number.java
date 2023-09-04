@@ -2,16 +2,15 @@ import java.util.*;
 public class A_Nearly_Lucky_Number{
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
-int n = sc.nextInt();
-int k;
-int f=0;
+long n = sc.nextLong();
 int count=0;
-while(k-->1){
-    k=n/10;
-    f=n%10;
-    if(f!=4 || f!=7){
+while(n>0){
+    
+    long f=n%10;
+    if(f!=4 && f!=7){
         count++;
     }
+    n=n/10;
 }
 if(count>0){
     System.out.println("NO");

@@ -1,6 +1,5 @@
 import java.util.*;
-public class AD
-{
+public class A_Anton_and_Danik{
 	public static void main(String args[]){
 	int ag=0,dg=0;
 	Scanner s=new Scanner(System.in);

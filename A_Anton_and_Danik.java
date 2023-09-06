@@ -1,4 +1,8 @@
+//https://codeforces.com/problemset/problem/734/A
 import java.util.*;
+
+import java.util.Scanner;
+
 public class A_Anton_and_Danik{
 	public static void main(String args[]){
 	int ag=0,dg=0;

@@ -1,3 +1,5 @@
+//https://codeforces.com/problemset/problem/116/A
+
 import java.util.*;
 public class A_Tram{
 public static void main(String[] args) {

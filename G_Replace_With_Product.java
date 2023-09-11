@@ -1,4 +1,5 @@
  
+//https://codeforces.com/contest/1872/problem/G
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
